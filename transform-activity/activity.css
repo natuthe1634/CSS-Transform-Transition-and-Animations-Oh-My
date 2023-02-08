@@ -1,3 +1,21 @@
 main {
 
 }
+
+
+body {
+    perspective: 1000px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper {
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .wrapper:hover {
+    transform: rotateX(30deg) rotateY(30deg);
+  }
