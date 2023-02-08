@@ -1,1 +1,13 @@
-
+button {
+    background-color: ghostwhite;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+  }
+  
+  
